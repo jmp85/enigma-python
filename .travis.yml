@@ -8,9 +8,6 @@ python:
   - "3.5"
 install: 
   - pip install -r requirements.txt
-  - pip install pylint
   - pip install nose
 script: 
-  - pylint enigma -E
-  - pylint tests -E
   - nosetests

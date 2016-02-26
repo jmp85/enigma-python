@@ -1,6 +1,13 @@
+'''
+    
+    __main__.py
+
+    Define entry points for command line scripts
+
+'''
+
 
 class ceasar(object):
-
     def encode(self, string):
         return string[::-1]
 
