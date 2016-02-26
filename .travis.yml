@@ -11,5 +11,6 @@ install:
   - pip install pylint
   - pip install nose
 script: 
-  - pylint
+  - pylint enigma
+  - pylint tests
   - nosetests
