@@ -9,7 +9,8 @@ python:
 install: 
   - pip install -r requirements.txt
   - pip install nose
+  - pip install python-coveralls
 script: 
-  - nosetests
+  - coverage run --source=enigma setup.py.test
 after_success:
   - coveralls

@@ -23,4 +23,8 @@ setup(
             'enigma-decrypt  = enigma.__main__:decrypt'
         ]
     },
+    tests_require = [
+        "nose"
+    ],
+    test_suite = "nose.collector"
 )
